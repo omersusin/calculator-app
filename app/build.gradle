@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.fluentcalculator'
+    namespace 'com.omersusin.calculator'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.fluentcalculator"
+        applicationId "com.omersusin.calculator"
         minSdk 26
         targetSdk 34
         versionCode 1
@@ -20,31 +20,25 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        debug {
-            minifyEnabled false
-        }
     }
-
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
-
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
-
     buildFeatures {
         viewBinding true
     }
 }
 
 dependencies {
-    implementation "androidx.core:core-ktx:1.13.1"
-    implementation "androidx.appcompat:appcompat:1.7.0"
-    implementation "com.google.android.material:material:1.12.0"
-    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
-
-    // Fluent UI for Android
-    implementation "com.microsoft.fluentui:FluentUIAndroid:0.3.11"
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    
+    // Microsoft Fluent UI for Android dependency
+    implementation 'com.microsoft.fluentui:FluentUI_android:0.1.14'
 }
