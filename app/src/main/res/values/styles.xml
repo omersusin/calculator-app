@@ -1,0 +1,28 @@
+<resources>
+    <style name="CalcKey">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@drawable/bg_key</item>
+        <item name="android:textColor">@color/fluent_text_primary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+    </style>
+
+    <style name="CalcKeyOperator" parent="CalcKey">
+        <item name="android:background">@drawable/bg_key_operator</item>
+    </style>
+
+    <style name="CalcKeyAccent" parent="CalcKey">
+        <item name="android:background">@drawable/bg_key_accent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

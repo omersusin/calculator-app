@@ -1,0 +1,12 @@
+<resources>
+    <color name="fluent_bg_top">#0B1220</color>
+    <color name="fluent_bg_bottom">#141A2C</color>
+    <color name="fluent_panel">#26FFFFFF</color>
+    <color name="fluent_panel_stroke">#33FFFFFF</color>
+    <color name="fluent_text_primary">#F2F6FF</color>
+    <color name="fluent_text_secondary">#B9C3D9</color>
+    <color name="fluent_accent">#5B9DFF</color>
+    <color name="fluent_key_dark">#20FFFFFF</color>
+    <color name="fluent_key_light">#2AFFFFFF</color>
+    <color name="fluent_key_operator">#335B9DFF</color>
+</resources>
