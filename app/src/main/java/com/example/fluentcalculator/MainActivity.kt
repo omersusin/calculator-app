@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupFluentEffects() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            binding.glassPanel.setRenderEffect(
+            binding.blurLayer.setRenderEffect(
                 RenderEffect.createBlurEffect(14f, 14f, Shader.TileMode.CLAMP)
             )
         }
